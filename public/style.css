@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #C1B5AD;
+}
+
+#map {
+  height: 1000px;
+  width: 1000px;
+}
+
+#main-body {
+  display: flex
+}
+
+#menu {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+}
+
+#marker-select {
+  background-color: red;
+}
